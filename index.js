@@ -5,7 +5,6 @@
 // * Work in the `master` branch. Commit your changes to the `index.js` file and push them to your repository. Your answers will be automatically graded when you push to your repository. If you do not push an updated `index.js` file to the `master` branch, the automatic grading will fail.
 // * Follow the instructions below to complete the test. **Important**: Make sure that the *names* of your variables/functions match the names in the instructions below.
 // * All your functions should return a value.
-// * Good luck!
 
 // ### Conditional Algorithms 
 //  1. Los or New?
@@ -62,9 +61,9 @@ console.log(geometricalSequence());
 const multiplesOfThree = () => {
     let result = '';
     let multiples = 0;
-    for (i = 0; i <= 5; i++) {
-        result += multiples + ' ';
+    for (i = 0; i < 5; i++) {
         multiples += 3;
+        result += multiples + ' ';
     }
     return result;
 }
