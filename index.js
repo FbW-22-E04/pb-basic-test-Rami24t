@@ -62,9 +62,9 @@ console.log(geometricalSequence());
 const multiplesOfThree = () => {
     let result = '';
     let multiples = 0;
-    for (i = 0; i <= 5; i++) {
-        result += multiples + ' ';
+    for (i = 0; i < 5; i++) {
         multiples += 3;
+        result += multiples + ' ';
     }
     return result;
 }
